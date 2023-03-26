@@ -17,7 +17,7 @@ export default function LinksHeader() {
           <NavLink to="/shop">Shop</NavLink>
         </li>
         <li>
-          <a href="#">Pages</a>
+          <div>Pages</div>
           <ul className="pages">
             <li>
               <Link to="/not-found">404 Page</Link>
