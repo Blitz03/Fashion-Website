@@ -7,12 +7,12 @@ export default function About() {
   return (
     <div className="about">
       <div className="container">
-        <h1 className="page-title">Durotan's Story</h1>
+        <h1 className="page-title">Fashionary's Story</h1>
         <p className="page-desc">
-          Established in 1991, Durotan & Logan Cee, 2 fashion artists work
-          together in UK, The inspiration got from natural, color pastel &
-          activities the daily. Durotan’s items alway look very basic but never
-          out trend, easy to mixed with any style.
+          Established in 1991, 2 fashion artists work together in UK, The
+          inspiration got from natural, color pastel & activities the daily.
+          Fashionary items alway look very basic but never out trend, easy to
+          mixed with any style.
         </p>
         <div className="image">
           <img src={aboutImg} alt="about" />

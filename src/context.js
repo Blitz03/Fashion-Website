@@ -210,8 +210,8 @@ function AppProvider({ children }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "http://localhost:3000/",
-          cancelUrl: "http://localhost:3000/",
+          successUrl: "https://fashionary.netlify.app/",
+          cancelUrl: "https://fashionary.netlify.app/",
         })
         .then((response) => {
           console.log(response.error);

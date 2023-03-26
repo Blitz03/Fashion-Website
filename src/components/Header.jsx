@@ -30,7 +30,7 @@ export default function Header() {
                 <AiOutlineMenu />
               </button>
               <Link to="/" className="logo title">
-                Durotan
+                Fashionary
               </Link>
             </div>
             <div className="header-contact">
