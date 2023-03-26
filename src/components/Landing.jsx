@@ -28,7 +28,7 @@ export default function Landing() {
       goToNextSlide();
     }, 4000);
     return () => clearInterval(timer);
-  }, []);
+  }, [goToNextSlide]);
 
   return (
     <section className="landing">
