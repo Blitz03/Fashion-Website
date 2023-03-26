@@ -21,7 +21,7 @@ export default function Landing() {
     setCurrentSlide(
       currentSlide === landingSlides.length - 1 ? 0 : currentSlide + 1
     );
-  }, [currentSlide]);
+  });
 
   useEffect(() => {
     const timer = setInterval(() => {
