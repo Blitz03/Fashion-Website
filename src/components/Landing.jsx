@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { useGlobalContext } from "../context";
 import { TfiAngleLeft, TfiAngleRight } from "react-icons/tfi";
@@ -17,11 +17,11 @@ export default function Landing() {
     );
   };
 
-  const goToNextSlide = () => {
+  const goToNextSlide = useCallback(() => {
     setCurrentSlide(
       currentSlide === landingSlides.length - 1 ? 0 : currentSlide + 1
     );
-  };
+  }, [currentSlide, landingSlides.length]);
 
   useEffect(() => {
     const timer = setInterval(() => {
