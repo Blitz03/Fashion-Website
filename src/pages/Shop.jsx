@@ -49,19 +49,19 @@ export default function Shop() {
     if (selectedMaterials.length > 0) {
       filtered = filtered.filter(
         (p) =>
-          p.materials && selectedMaterials.some((m) => p.materials.includes(m))
+          p.materials && selectedMaterials.every((m) => p.materials.includes(m))
       );
     }
 
     if (selectedColors.length > 0) {
       filtered = filtered.filter(
-        (p) => p.colors && selectedColors.some((c) => p.colors.includes(c))
+        (p) => p.colors && selectedColors.every((c) => p.colors.includes(c))
       );
     }
 
     if (selectedSizes.length > 0) {
       filtered = filtered.filter(
-        (p) => p.sizes && selectedSizes.some((s) => p.sizes.includes(s))
+        (p) => p.sizes && selectedSizes.every((s) => p.sizes.includes(s))
       );
     }
 
