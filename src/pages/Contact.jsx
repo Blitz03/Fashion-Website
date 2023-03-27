@@ -50,17 +50,26 @@ export default function Contact() {
                   <h3 className="box-title">Social</h3>
                   <ul>
                     <li>
-                      <a href="https://twitter.com/">
+                      <a
+                        href="https://twitter.com/"
+                        target="_blank"
+                        rel="noreferrer">
                         <SlSocialTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noreferrer">
                         <SlSocialFacebook />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/">
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noreferrer">
                         <SlSocialInstagram />
                       </a>
                     </li>

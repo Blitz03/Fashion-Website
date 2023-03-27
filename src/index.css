@@ -778,36 +778,6 @@ header .container .links-header ul.links li a.active {
 header .container .links-header ul.links li a:hover {
   color: var(--selection-color);
 }
-header .container .links-header ul.links li:hover ul.pages {
-  top: 100%;
-  opacity: 1;
-  visibility: visible;
-}
-header .container .links-header ul.links li ul.pages {
-  top: 120%;
-  background: #fff;
-  border: 1px solid #d0d0d0;
-  border-top-color: #c4c3bd;
-  position: absolute;
-  width: 280px;
-  padding: 20px;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease-in;
-  display: flex;
-  flex-direction: column;
-  z-index: 111;
-}
-header .container .links-header ul.links li ul.pages li {
-  padding-bottom: 5px;
-}
-header .container .links-header ul.links li ul.pages li a {
-  color: black;
-  transition: var(--secondary-transition);
-}
-header .container .links-header ul.links li ul.pages li a:hover {
-  color: var(--selection-color);
-}
 header .container .links-header select {
   border: none;
   text-transform: uppercase;
