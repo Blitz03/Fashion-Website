@@ -178,7 +178,7 @@ export default function Shop() {
                         value={material}
                         checked={selectedMaterials.includes(material)}
                       />
-                      <label htmlFor={`category-checkbox-${material}`}>
+                      <label htmlFor={`material-checkbox-${material}`}>
                         {material}
                       </label>
                     </li>
@@ -213,7 +213,7 @@ export default function Shop() {
                     <li key={index} className="size-list">
                       <input
                         type="checkbox"
-                        id={`color-checkbox-${size}`}
+                        id={`size-checkbox-${size}`}
                         onChange={handleSizeChange}
                         value={size}
                         checked={selectedSizes.includes(size)}
