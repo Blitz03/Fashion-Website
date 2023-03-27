@@ -17,18 +17,10 @@ export default function LinksHeader() {
           <NavLink to="/shop">Shop</NavLink>
         </li>
         <li>
-          <div>Pages</div>
-          <ul className="pages">
-            <li>
-              <Link to="/not-found">404 Page</Link>
-            </li>
-            <li>
-              <Link to="/cart">Cart</Link>
-            </li>
-            <li>
-              <Link to="/wishlist">Wishlist</Link>
-            </li>
-          </ul>
+          <Link to="/cart">Cart</Link>
+        </li>
+        <li>
+          <Link to="/wishlist">Wishlist</Link>
         </li>
       </ul>
       <select className="language">
