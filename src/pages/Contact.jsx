@@ -15,7 +15,7 @@ export default function Contact() {
         </p>
         <div className="map">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3020.024603099607!2d-73.96325281565747!3d40.80545313982952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ4JzIwLjIiTiA3M8KwNTcnNTUuNiJX!5e0!3m2!1sar!2siq!4v1679329910227!5m2!1sar!2siq"
+            src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d12080.49706390888!2d-73.958802!3d40.803263!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ4JzIwLjIiTiA3M8KwNTcnNTUuNiJX!5e0!3m2!1sen!2siq!4v1679875221133!5m2!1sen!2siq"
             width="100%"
             height="450"
             style={{ border: "none" }}
